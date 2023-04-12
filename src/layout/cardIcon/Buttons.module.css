@@ -1,0 +1,31 @@
+.btn_line {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+.btn_line > button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 50%;
+    padding: 1em 1.5em;
+    background-color: #272f37;
+    color: #686f79;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn_line > button:hover {
+    background-color: #9899a7;
+    color: #f8f3f6;
+}
+
+.btn_line> button:active,
+            button:focus {
+    background-color: #f47229;
+    color: #ffffff;
+    outline: none;
+}

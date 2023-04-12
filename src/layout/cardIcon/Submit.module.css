@@ -1,0 +1,27 @@
+.submitbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+
+.submitbtn > button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    min-height: 4em;
+    border-radius: 3em;
+    border: none;
+    background-color: #f56e25;
+    color: #fdebc8;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submitbtn >  button:hover {
+    background-color: #ffffff;
+    color: #e8ae83;
+}
